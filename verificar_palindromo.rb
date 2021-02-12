@@ -5,6 +5,7 @@ def palindromo?(str)
    puts %Q("A palavra #{str} não é palíndromo")
  end
 end
+
 puts "Digite uma palavra: "
-palavra = gets.chomp
-palindromo?
+
+palindromo?palavra = gets.chomp
