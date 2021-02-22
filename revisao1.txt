@@ -4,7 +4,7 @@ Resposta: CTRL+ALT+T
 
 2) Crie uma pasta de nome Ubuntu dentro da Pasta Documentos
 Resposta: 
-user@user~/Documentos$ mkdir Ubuntu6
+user@user~/Documentos$ mkdir Ubuntu
 
 3) Mova esta Pasta para o diretório Pessoal
 Resposta:
