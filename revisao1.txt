@@ -4,43 +4,82 @@ Resposta: CTRL+ALT+T
 
 2) Crie uma pasta de nome Ubuntu dentro da Pasta Documentos
 Resposta: 
-user@user~/Documentos$ mkdir Ubuntu
+user@ubuntu:~/Documentos$ mkdir Ubuntu
+Correção
+user@ubuntu:~ mkdir Ubuntu/ /home/user/Documentos
 
 3) Mova esta Pasta para o diretório Pessoal
-Resposta:
+Resposta: 
+user@ubuntu~/Documentos$ sudo mv Ubuntu /home
+Correção:
+user@ubuntu~/Documentos$ ls ~
 
-4) Crie um arquivo vazio de nome teste.txt dentro da Pasta Ubuntu
+4) Crie um arquivo vazio de no me teste.txt dentro da Pasta Ubuntu
 Resposta:
+user@ubuntu:/home/Ubuntu$ touch teste.txt
+Correção:
+user@ubuntu:~/Ubuntu$ touch teste.txt
 
 5) Renomeie este Arquivo como linux.txt
 Resposta:
+user@ubuntu:/home/Ubuntu$ mv teste.text linux.txt 
+Correção:
+user@ubuntu:~/Ubuntu$ mv teste.text linux.txt 
 
 6) Crie uma cópia deste arquivo na Pasta Downloads
-Resposta:
+Correção:
+user@ubuntu:~/Ubuntu$ cp linux.txt /home/user/Downloads/
+user@ubuntu:~/Ubuntu$ cp linux.txt ~/Downloads/
+
 
 7) Exiba todos os comandos digitados no Terminal
 Resposta:
+user@ubuntu:~$ history
+Correção
+user@ubuntu:~/Ubuntu$ history
 
 8) Execute a ajuda do comando ls
-Resposta:
+Resposta: 
+user@ubuntu:~$ ls --help
+Correção
+user@ubuntu:~/Ubuntu$ ls --help
 
 9) Execute o manual do comando mv
 Resposta:
+user@ubuntu:~$ man mv
+Correção
+user@ubuntu:~/Ubuntu$ man mv
 
 10) Pare a execução do manual
 Resposta:
+q
+Correção
+CTRL+Z
 
 11) Saia do Terminal utilizando sequência de teclas
-Resposta:
+Correção
+CTRL+D
 
 12) Exclua a pasta Ubuntu
 Resposta:
+user@ubuntu:/home$ sudo rm -r Ubuntu
+Correção
+user@ubuntu:~/Ubuntu$ rmdir Ubuntu
+* Obs: A pasta tem que está vazia para este comando funcionar
 
 13) Exclua o arquivo linux.txt
-Resposta:
- 
- 14)Limpe o Terminal
- Resposta:
+Resposta: 
+user@ubuntu:~/Downloads$ sudo rm -r linux.txt
+Correção
+user@ubuntu:~/Ubuntu$ rm linux.txt
 
- 15)Utilize o comando para sair do Terminal
- Resposta:
+ 
+14)Limpe o Terminal
+Resposta: 
+user@ubuntu:~$ clear
+Correção
+user@ubuntu:~/Ubuntu$ clear
+
+15)Utilize o comando para sair do Terminal
+Resposta: 
+user@ubuntu:~$ exit
