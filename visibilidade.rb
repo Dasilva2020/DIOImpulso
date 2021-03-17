@@ -20,7 +20,7 @@ class MinhaClasse
         puts "Método 3 privado"
     end
 
-    protected
+    protected # tudo aqui embaixo é PROTECTEDgit status
 
     def m5
         puts "Método 5"
