@@ -1,0 +1,32 @@
+Lidando com arquivos txt
+
+Editando arquivo txt
+user@ubuntu:~/Documentos$ nano teste.txt
+
+Visualiza todo o arquivo
+user@ubuntu:~/Documentos$ cat teste.txt
+
+Visualiza as 10 primeira linha
+user@ubuntu:~/Documentos$ head teste.txt
+
+Visualiza as 10 última linha
+user@ubuntu:~/Documentos$ tail teste.txt
+
+Copia as 10 últimas linha para um novo arquivo
+user@ubuntu:~/Documentos$ tail teste.txt > distro.txt
+
+Copia todo o arquivo para um arquivo novo
+user@ubuntu:~/Documentos$ tail teste.txt > distro.txt
+
+Comando para visualizar o calendário
+user@ubuntu:~/Documentos$ cal
+
+Copia o calendario para arquivo txt
+user@ubuntu:~/Documentos$ cal > calendario_marco.txt
+
+
+Visualiza arquivo no prompt desc
+user@ubuntu:~/Documentos$ tac texte.txt
+
+
+
