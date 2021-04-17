@@ -22,11 +22,37 @@ Comando para visualizar o calendário
 user@ubuntu:~/Documentos$ cal
 
 Copia o calendario para arquivo txt
-user@ubuntu:~/Documentos$ cal > calendario_marco.txt
+user@ubuntu:~/Documentos$ cal > calendario_mar.txt
 
+Adicionar uma copia no arquivo txt
+user@ubuntu:~/Documentos$ date >> calendario_mar.txt
+
+Adicionar e Copiar arquivo no txt
+user@ubuntu:~/Documentos$ cal maio 2021 > maio.txt
+user@ubuntu:~/Documentos$ cal julho 2021 >> maio.txt
+
+Juntando 2 comando 
+user@ubuntu:~/Documentos$ tail distros.txt | grep Linux
 
 Visualiza arquivo no prompt desc
 user@ubuntu:~/Documentos$ tac texte.txt
 
+---------------------------------------------------------
+Paginação de arquivos no prompt
+user@ubuntu:~/Documentos$ cat teste.txt | more
+user@ubuntu:~/Documentos$ cat teste.txt | less
 
+Abrir 2 arquivos ao mesmo tempo com quebra
+user@ubuntu:~/Documentos$ cat maio.txt & cat calendario_2020.txt
 
+Abrir 2 arquivos ao mesmo tempo sem quebra
+user@ubuntu:~/Documentos$ cat maio.txt && cat calendario_2020.txt
+
+Criar uma nova pasta e abrir ao mesmo tempo
+user@ubuntu:~/Documentos$ cat maio.txt && cat calendario_2020.txt
+
+Saber o tipo do arquivo na saida
+user@ubuntu:~/Documentos$ file distros.txt //distros.txt: UTF-8 Unicode text
+
+user@ubuntu:~/Documentos$ file LocalizaLabsdotNETDeveloper //LocalizaLabsdotNETDeveloper: directory
+ 
